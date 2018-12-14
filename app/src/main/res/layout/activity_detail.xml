@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/namaDoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="NamaDoa"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/arabDoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Doa nya"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/latinDoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="latin doa"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/artiDoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="arti doa"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
